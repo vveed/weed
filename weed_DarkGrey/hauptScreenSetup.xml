@@ -1,0 +1,39 @@
+<!-- hauptScreenSetup -->
+ 
+<screen name="MediaPortal_Setup" position="center,center" size="1280,720" flags="wfNoBorder">
+	<!-- Background -->
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/weed_DarkGrey/images/mp_bg_detail.png" alphatest="blend" />
+	<!-- TV Screen -->
+	<widget source="session.VideoPicture" render="Pig" position="990,25" size="240,135" zPosition="-2" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="~/weed_DarkGrey/images/mp_bg_tv_off.png" position="990,0" size="290,160" zPosition="1">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="890,67" size="100,30" backgroundColor="#00000000" zPosition="3" font="mediaportal; 24" valign="center" halign="left" transparent="1" foregroundColor="#00ffb000" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="585,72" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	<!-- select screen -->
+	
+	<widget name="title" position="60,103" size="450,25" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="name" position="340,168" size="450,25" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffb000" />
+
+    <widget name="config" position="338,200" size="885,317" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_DarkGrey/images/sel.png" foregroundColorSelected="#00ffb000" foregroundColor="#009c9c9c" />
+    	<eLabel text=" Grauzone u. Porno: &#xD;&#xA; Bei aktiviertem Plugin müßen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! "  position="60,562" size="605,120" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" halign="left" foregroundColor="#00ffb000" />
+	
+	<ePixmap position="50,165" size="260,360" zPosition="-3" backgroundColor="#00000000" transparent="1" pixmap="~/weed_DarkGrey/images/mp_nopic.png" alphatest="blend" />
+
+	<!-- Buttons -->
+    <eLabel text=" Exit " position="803,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="923,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="1043,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="1163,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+	<eLabel text=" " position="800,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	<eLabel text=" " position="920,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH+ " position="1040,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="1160,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+</screen>

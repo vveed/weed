@@ -1,0 +1,43 @@
+	<!-- defaultListWideScreen --> 
+	
+	<screen name="defaultList" position="0,0" size="1280,720" flags="wfNoBorder">
+	
+	<!-- Background -->
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/weed_EvoGlas/images/mp_bg_detail.png" alphatest="off" />
+
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00a2ff00" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	
+	<!-- select screen -->
+	<widget name="Page" position="850,580" size="180,25" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00a2ff00" valign="center" halign="right" />
+	<widget name="page" position="1000,580" size="180,25" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00a2ff00" valign="center" halign="right" />
+  	
+	<widget name="title" position="530,85" size="650,30" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00a2ff00" />
+	<widget name="name" position="100,125" size="750,20" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000b4ff" />
+	<widget name="ContentTitle" position="100,580" size="650,20" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#009c9c9c" />
+
+    <widget name="liste" position="340,166" size="843,307" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoGlas/images/sel.png" foregroundColorSelected="#0000b4ff" foregroundColor="#009c9c9c" />
+	
+    <widget name="handlung" position="110,497" size="1073,75" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#0000b4ff" />
+	<eLabel position="110,570" size="1050,2" backgroundColor="#00121212" zPosition="2" name="Overlay" foregroundColor="#00ffffff" />
+	
+	<widget name="coverArt" position="110,166" size="204,308" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
+	<eLabel position="110,166" size="204,308" backgroundColor="#00000000" zPosition="-2" name="coverArtBG" foregroundColor="#00000000" />
+
+	<!-- Buttons -->
+    <widget name="F1" position="115,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="225,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="337,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="446,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+	
+	<eLabel text=" " position="775,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH+ " position="887,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="997,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Info " position="1105,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+	</screen>

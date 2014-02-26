@@ -1,0 +1,47 @@
+<!-- Radiode -->
+
+	<screen name="Radio.de" position="0,0" size="1280,720" flags="wfNoBorder">
+	<!-- Background -->
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
+		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/weed_EvoMetrix/images/mp_bg_detail.png" alphatest="blend" />
+	
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1125,577" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="820,577" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	
+	<!-- select screen -->
+
+	<widget name="title" position="530,85" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<widget name="leftContentTitle" position="100,125" size="540,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="rightContentTitle" position="640,125" size="540,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="stationInfo" position="100,580" size="650,20" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#009c9c9c" />
+
+    <widget name="streamlist" position="97,166" size="532,307" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+    <widget name="playlist" position="650,166" size="532,307" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+	
+    <widget name="stationDesc" position="110,497" size="1073,75" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#0000deff" />
+	
+	<widget name="stationIcon" position="110,166" size="204,308" zPosition="-4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
+
+    <widget source="session.CurrentService" render="Label" position="110,557" size="120,20"  zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#0000deff" >
+      <convert type="ServicePosition">Position</convert>
+    </widget>	
+
+	<!-- Buttons -->
+    <widget name="F1" position="98,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <widget name="F2" position="228,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <widget name="F3" position="358,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <widget name="F4" position="488,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" /> 
+	
+	<eLabel text=" P+ " position="642,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+	<eLabel text=" P- " position="752,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" CH+ " position="862,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" CH- " position="972,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" Exit " position="1082,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+	
+	</screen>

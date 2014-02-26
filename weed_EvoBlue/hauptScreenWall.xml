@@ -1,0 +1,32 @@
+<!-- Hauptscreen_Wall -->
+
+	<screen name="MediaPortal" position="0,0" size="1280,720" flags="wfNoBorder">
+	<!-- Background -->
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/weed_EvoBlue/images/mp_bg_wall.png" alphatest="off" />
+
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1120,175" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00a2ff00" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="815,175" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	
+	<!-- select screen -->
+	<widget name="name" position="100,173" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00a2ff00" />
+	<widget name="tipps" position="40,130" size="1200,35" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
+  <widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000b4ff" />	
+	
+	<!-- Buttons -->
+    <eLabel text="Proxy" position="115,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="green" position="225,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text="Sort" position="337,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="blue" position="446,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+	
+	<eLabel text=" PVR " position="665,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
+	<eLabel text=" CH +/- " position="775,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Menu " position="887,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Help " position="997,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1105,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+
+	

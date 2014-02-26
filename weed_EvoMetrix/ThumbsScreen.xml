@@ -1,0 +1,43 @@
+<!-- bottomScreen -->
+
+	<screen name="MediaPortal_Thumbs" position="0,0" size="1280,720" flags="wfNoBorder">
+	
+	<!-- Background -->
+	<eLabel position="0,0" size="1280,720" backgroundColor="#90000000"/>
+
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1040,62" size="100,30" backgroundColor="#00000000" zPosition="3" font="mediaportal; 24" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="735,67" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	
+	<!-- select screen -->
+	<widget name="Page" position="480,660" size="80,36" backgroundColor="#26181d20" transparent="1" foregroundColor="#00ffffff" font="mediaportal;18" valign="center" zPosition="1" />
+	<widget name="page" position="540,660" size="560,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="Thumb" position="1020,660" size="50,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="thumb" position="1070,660" size="70,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonred.png" position="20,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttongreen.png" position="130,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonyellow.png" position="240,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonblue.png" position="350,660" size="90,36" alphatest="blend" zPosition="0" />
+	<widget name="F1" position="20,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F2" position="130,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F3" position="240,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F4" position="350,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonglas.png" position="20,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonglas.png" position="130,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonglas.png" position="240,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonglas.png" position="350,660" size="90,36" alphatest="blend" zPosition="2" />
+	<eLabel text="INFO" position="1170,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttonglas.png" position="1170,660" size="90,36" alphatest="blend" zPosition="2" />
+
+	<ePixmap position="0,639" size="1280,84" zPosition="-3" pixmap="~/weed_EvoMetrix/images/buttons_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="1162,652" size="106,53" zPosition="-1" pixmap="~/weed_EvoMetrix/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap pixmap="~/weed_EvoMetrix/images/buttongrey.png" position="1170,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap position="232,652" size="106,53" zPosition="-1" pixmap="~/weed_EvoMetrix/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="12,652" size="106,53" zPosition="-1" pixmap="~/weed_EvoMetrix/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="122,652" size="106,53" zPosition="-1" pixmap="~/weed_EvoMetrix/images/button_bg.png" transparent="1" alphatest="blend" />
+	<ePixmap position="342,652" size="106,53" zPosition="-1" pixmap="~/weed_EvoMetrix/images/button_bg.png" transparent="1" alphatest="blend" />
+

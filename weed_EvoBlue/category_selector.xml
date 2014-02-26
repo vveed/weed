@@ -1,0 +1,3 @@
+<!-- Category_Selector -->
+<screen name="CategorySelector" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="#ffffffff">
+	<ePixmap position="490,165" size="300,390" zPosition="-1" pixmap="~/weed_EvoBlue/images/category_selector_bg.png" />

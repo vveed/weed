@@ -1,0 +1,33 @@
+<!-- Hauptscreen_Wall -->
+ 
+<screen name="MediaPortal" position="center,center" size="1280,720" flags="wfNoBorder">
+	<!-- Background -->
+	<ePixmap position="0,0" size="1280,720" zPosition="-1" pixmap="~/weed_DarkGrey/images/mp_bg_wall.png" alphatest="blend" />
+	<!-- TV Screen -->
+	<widget source="session.VideoPicture" render="Pig" position="990,25" size="240,135" zPosition="-2" backgroundColor="transparent" />
+	<widget source="hidePig" render="Pixmap" pixmap="~/weed_DarkGrey/images/mp_bg_tv_off.png" position="990,0" size="290,160" zPosition="1">
+		<convert type="ConditionalShowHide" />
+	</widget>
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="890,67" size="100,30" backgroundColor="#00000000" zPosition="3" font="mediaportal; 24" valign="center" halign="left" transparent="1" foregroundColor="#00ffb000" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="585,72" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	<!-- select screen -->
+	<widget name="name" position="60,104" size="450,25" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="page" position="990,170" size="185,25" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;16" foregroundColor="#00ffb000" valign="center" halign="right" />
+ 	<widget name="tipps" position="50,635" size="1100,30" foregroundColor="#00ffb000" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="0" />
+	 	
+	<!-- Buttons -->
+    <eLabel text="Proxy" position="65,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="green" position="185,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text="Sort " position="305,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="blue" position="425,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+	<eLabel text=" PVR " position="680,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	<eLabel text=" CH +/- " position="800,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	<eLabel text=" Menu " position="920,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Help " position="1040,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1160,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
