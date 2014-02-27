@@ -51,9 +51,6 @@
     <widget name="F3" position="1043,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F4" position="1163,630" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
-    <eLabel text=" Playlist " position="923,630" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Playmode " position="1043,630" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-	
     <eLabel text=" " position="800,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" " position="920,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="1040,675" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
