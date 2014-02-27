@@ -17,7 +17,7 @@
 	<!-- select screen -->
 	<widget name="name" position="100,173" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000deff" />
 	<widget name="tipps" position="40,135" size="1200,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
-  <widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />	
+	<widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />	
 	
 	<!-- Buttons -->
     <eLabel text="Proxy" position="98,645" size="120,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
