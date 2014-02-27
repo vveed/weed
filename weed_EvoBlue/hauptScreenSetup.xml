@@ -22,14 +22,14 @@
 	<eLabel text=" Grauzone u. Porno: &#xD;&#xA; Bei aktiviertem Plugin müßen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! " position="100,500" size="1080,70" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#0000b4ff" />
 	
 	<!-- Buttons -->
-    <eLabel text="Exit" position="115,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="115,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" " position="225,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" " position="337,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" " position="446,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
     <eLabel text=" " position="775,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="887,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="887,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="997,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" CH- " position="1105,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1105,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     
 	</screen>
