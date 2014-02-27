@@ -21,14 +21,14 @@
 	<widget name="liste" position="340,166" size="843,307" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoGlas/images/sel.png" foregroundColorSelected="#0000b4ff" foregroundColor="#009c9c9c" />
 	    
 	<!-- Buttons -->
-    <widget name="F1" position="115,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F2" position="225,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="337,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="446,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <widget name="F1" position="115,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="225,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="337,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="446,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
     <eLabel text=" " position="775,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="887,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="887,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text=" CH+ " position="997,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" CH- " position="1105,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1105,615" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     
 	</screen>

@@ -15,13 +15,13 @@
 	<!-- select screen -->
 	<widget name="name" position="100,173" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00a2ff00" />
 	<widget name="tipps" position="40,130" size="1200,35" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
-  <widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000b4ff" />	
+	<widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000b4ff" />	
 	
 	<!-- Buttons -->
     <eLabel text="Proxy" position="115,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="green" position="225,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="green" position="225,642" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <eLabel text="Sort" position="337,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="blue" position="446,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <widget name="blue" position="446,642" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
 	<eLabel text=" PVR " position="665,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
 	<eLabel text=" CH +/- " position="775,642" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
