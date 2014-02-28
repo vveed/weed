@@ -1,0 +1,66 @@
+<!-- HelpScreen -->
+	
+	<screen name="HelpScreen" position="0,0" size="1280,720" flags="wfNoBorder">
+
+	<!-- Background -->
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
+		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+
+	
+	<!-- Datum/Uhrzeit -->
+	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
+		<convert type="ClockToText">Format:%H:%M:%S</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
+	</widget>
+	
+	<!-- select screen -->
+	<eLabel text="Hilfeseite" position="530,85" size="650,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<eLabel text="MediaPortal Bedienungsanleitung" position="100,125" size="750,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	
+	<ePixmap position="850,245" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="Menu" position="875,245" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Setup" position="965,243" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	
+	<ePixmap position="850,275" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="Help" position="875,275" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="FAQ" position="965,273" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+		
+	<ePixmap position="850,305" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text=" Exit" position="870,305" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Programm schliessen" position="965,303" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+		
+	<ePixmap position="850,335" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="CH+" position="875,335" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Seite weiter" position="965,333" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />
+	
+	<ePixmap position="850,365" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="CH-" position="875,365" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Seite zurück" position="965,363" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />
+		
+	<ePixmap position="850,395" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="Page" position="875,395" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Seite auswählen" position="965,393" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+		
+	<ePixmap position="850,425" size="20,20" zPosition="6" pixmap="~/weed_EvoAero/images/page.png" alphatest="blend" />
+	<eLabel text="Info/EPG" position="875,425" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
+	<eLabel text="Update" position="965,423" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+		
+	<eLabel text="Mit der MENÜ Taste könnt ihr im Hauptmenü einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blättern mit den beiden 'Bouquet Tasten' ist immer dann möglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden länger abwarten&#xD;&#xA;    oder den Stream am PC überprüfen ob dieser dort läuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer überlastet und man kann mit Bildhängern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster überlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswählen." position="112,185" size="740,400" backgroundColor="#00000000" font="mediaportal; 12" foregroundColor="#009c9c9c" valign="top" halign="left" transparent="1" />
+
+	<eLabel text="MediaPortal Team http://www.vuplus-support.org" position="100,580" size="650,20" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000deff" />
+
+	<!-- Buttons -->
+    <eLabel name=" " position="98,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel name=" " position="228,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel name=" " position="358,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel name=" " position="488,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" /> 
+	
+	<eLabel text=" " position="642,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+	<eLabel text=" " position="752,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" " position="862,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" " position="972,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" Exit " position="1082,615" size="100,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+	
+	</screen>

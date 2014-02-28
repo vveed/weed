@@ -1,0 +1,31 @@
+<!-- bottomScreen -->
+	
+	<screen name="MediaPortal_Thumbs" position="0,0" size="1280,720" flags="wfNoBorder">
+	<eLabel position="0,0" zPosition="-4" size="1280,720" backgroundColor="#30000000"/>
+	
+	<!-- select screen -->
+	<widget name="Page" position="480,660" size="80,36" backgroundColor="#26181d20" transparent="1" foregroundColor="#00ffffff" font="mediaportal;18" valign="center" zPosition="1" />
+	<widget name="page" position="540,660" size="560,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="Thumb" position="1020,660" size="50,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="thumb" position="1070,660" size="70,36" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" foregroundColor="#00ffffff" zPosition="1" />
+	
+	<!-- Buttons -->
+	<widget name="F1" position="20,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F2" position="130,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F3" position="240,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	<widget name="F4" position="350,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	
+	<eLabel text="INFO" position="1170,660" size="90,36" transparent="1" font="mediaportal; 18" backgroundColor="#26181d20" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="1" />
+	
+	<ePixmap pixmap="~/weed_EvoAero/images/buttongrey.png" position="1170,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonred.png" position="20,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttongreen.png" position="130,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonyellow.png" position="240,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonblue.png" position="350,660" size="90,36" alphatest="blend" zPosition="0" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonglas.png" position="1170,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonglas.png" position="20,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonglas.png" position="130,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonglas.png" position="240,660" size="90,36" alphatest="blend" zPosition="2" />
+	<ePixmap pixmap="~/weed_EvoAero/images/buttonglas.png" position="350,660" size="90,36" alphatest="blend" zPosition="2" />
+
+
