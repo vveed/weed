@@ -34,7 +34,7 @@
 	<eLabel text=" Grauzone u. Porno: &#xD;&#xA; Bei aktiviertem Plugin müßen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! " position="375,460" size="810,100" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#00ffffff" />
 	
 	<!-- Buttons -->
-    <eLabel text=" Proxy " position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" " position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
     <eLabel text=" " position="220,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
     <eLabel text=" " position="350,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
     <eLabel text=" " position="480,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" /> 
