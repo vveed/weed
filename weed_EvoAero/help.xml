@@ -7,8 +7,8 @@
 	<eLabel position="85,90" zPosition="-5" size="260,120" name="TimerBG" backgroundColor="#20000000"/>
 	<eLabel position="85,220" zPosition="-5" size="260,360" name="CoverBG" backgroundColor="#20000000"/>
 	<eLabel position="365,90" zPosition="-5" size="830,40" name="TopBG" backgroundColor="#20000000"/>
-	<eLabel position="365,140" zPosition="-5" size="830,310" name="ScrollBG" backgroundColor="#20000000"/>
-	<eLabel position="365,460" zPosition="-5" size="830,120" name="InfoBG" backgroundColor="#20000000"/>
+	<eLabel position="365,140" zPosition="-5" size="830,220" name="ScrollBG" backgroundColor="#20000000"/>
+	<eLabel position="365,370" zPosition="-5" size="830,210" name="InfoBG" backgroundColor="#20000000"/>
 	<eLabel position="85,590" zPosition="-5" size="1110,40" name="ButtonBG" backgroundColor="#20000000"/>
 
 	<!-- Datum/Uhrzeit -->
@@ -27,37 +27,37 @@
 	<eLabel text="5.1.2" position="100,110" size="210,30" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right" zPosition="6" />
 
 	<eLabel text="Hilfeseite" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
-	<eLabel text="MediaPortal Team http://www.vuplus-support.org"position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<eLabel text="MediaPortal Team http://www.vuplus-support.org" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	
-	<eLabel position="375,155" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="Menu" position="405,150" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Setup" position="590,150" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	<eLabel name="ButtonBG" position="375,155" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="Menu" position="405,150" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Setup" position="590,150" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />	
 	
-	<eLabel position="375,185" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="Help" position="405,180" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="FAQ" position="590,180" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	<eLabel name="ButtonBG" position="375,185" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="Help" position="405,180" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="FAQ" position="590,180" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />	
 		
-	<eLabel position="375,215" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text=" Exit" position="405,210" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Programm schliessen" position="590,210" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	<eLabel name="ButtonBG" position="375,215" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="Exit" position="405,210" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Programm schliessen" position="590,210" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />	
 		
-	<eLabel position="375,245" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="CH+" position="405,240" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Seite weiter" position="590,240" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />
+	<eLabel name="ButtonBG" position="375,245" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="CH+" position="405,240" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Seite weiter" position="590,240" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />
 	
-	<eLabel position="375,275" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="CH-" position="405,270" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Seite zurück" position="590,270" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />
+	<eLabel name="ButtonBG" position="375,275" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="CH-" position="405,270" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Seite zurueck" position="590,270" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />
 		
-	<eLabel position="375,305" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="Page" position="405,300" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Seite auswählen" position="590,300" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	<eLabel name="ButtonBG" position="375,305" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="Page" position="405,300" size="185,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Seite auswaehlen" position="590,300" size="185,30" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />	
 		
-	<eLabel position="375,335" zPosition="2" size="20,20" name="ButtonBG" backgroundColor="#009c9c9c"/>
-	<eLabel text="Info/EPG" position="405,330" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
-	<eLabel text="Update" position="590,330" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
+	<eLabel name="ButtonBG" position="375,335" zPosition="2" size="20,20" backgroundColor="#009c9c9c"/>
+	<eLabel text="Info/EPG" position="405,330" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="center" halign="left" zPosition="1" />	
+	<eLabel text="Update" position="590,330" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="center" halign="left" zPosition="1" />	
 		
-	<eLabel text="Mit der MENÜ Taste könnt ihr im Hauptmenü einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blättern mit den beiden 'Bouquet Tasten' ist immer dann möglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden länger abwarten&#xD;&#xA;    oder den Stream am PC überprüfen ob dieser dort läuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer überlastet und man kann mit Bildhängern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster überlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswählen." position="375,460" size="810,100" backgroundColor="#00000000" font="mediaportal; 12" foregroundColor="#009c9c9c" valign="top" halign="left" transparent="1" />
+	<eLabel text="Mit der MENU Taste koennt ihr im Hauptmenue einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blaettern mit den beiden 'Bouquet Tasten' ist immer dann moeglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden laenger abwarten&#xD;&#xA;    oder den Stream am PC ueberpruefen ob dieser dort laeuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer ueberlastet und man kann mit Bildhaengern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster ueberlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswaehlen." position="375,380" size="810,190" backgroundColor="#00000000" font="mediaportal; 12" foregroundColor="#009c9c9c" valign="top" halign="left" transparent="1" />
 
 	<!-- Buttons -->
     <eLabel text=" " position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
