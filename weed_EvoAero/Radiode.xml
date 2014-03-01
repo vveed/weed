@@ -40,7 +40,7 @@
 	
     <widget name="stationDesc" position="450,145" size="740,60" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#0000deff" />
 
-	<widget name="stationIcon" pixmap="~/weed_EvoAero/images/SoundBunny.png" position="365,140" size="70,70" transparent="1" alphatest="blend" />
+	<widget name="stationIcon" position="365,140" size="70,70" transparent="1" alphatest="blend" />
 
     <widget source="session.CurrentService" render="Label" position="110,557" size="120,20"  zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#0000deff" >
       <convert type="ServicePosition">Position</convert>

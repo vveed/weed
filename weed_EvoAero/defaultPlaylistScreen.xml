@@ -34,7 +34,7 @@
 	<widget name="title" position="530,90" size="650,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
 	<eLabel text="Songliste" position="380,90" size="200,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	
-    <widget name="streamlist" position="365,140" size="830,260" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
+    <widget name="streamlist" position="366,141" size="828,258" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	
 	<eLabel text="Song: " position="380,410" size="380,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
     <widget name="songtitle" position="435,410" size="340,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#0000deff" />
@@ -60,7 +60,7 @@
 	
 	<eLabel text="Mediaplayer" position="100,480" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
 	
-	<widget name="coverArt" pixmap="~/weed_EvoAero/images/SoundBunny.png" position="120,260" size="160,160" zPosition="4" backgroundColor="#00000000" transparent="1" alphatest="blend" />
+	<widget name="coverArt" position="120,260" size="160,160" zPosition="4" backgroundColor="#00000000" transparent="1" alphatest="blend" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
