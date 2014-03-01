@@ -6,6 +6,14 @@
 	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ffffffff"/>
 	<eLabel position="85,90" zPosition="-5" size="260,120" name="TimerBG" backgroundColor="#20000000"/>
 	<eLabel position="85,220" zPosition="-5" size="260,360" name="CoverBG" backgroundColor="#20000000"/>
+		<eLabel position="85,220" zPosition="5" size="260,10" name="CoverTopBG" backgroundColor="#00000000"/>
+		<eLabel position="85,570" zPosition="5" size="260,10" name="CoverBottomBG" backgroundColor="#00000000"/>
+		<eLabel position="85,220" zPosition="5" size="10,360" name="CoverLeftBG" backgroundColor="#00000000"/>
+		<eLabel position="335,220" zPosition="5" size="10,360" name="CoverRightBG" backgroundColor="#00000000"/>
+		<eLabel position="85,220" zPosition="5" size="260,10" name="CoverTopBG" backgroundColor="#00000000"/>
+		<eLabel position="85,570" zPosition="5" size="260,10" name="CoverBottomBG" backgroundColor="#00000000"/>
+		<eLabel position="85,220" zPosition="5" size="10,360" name="CoverLeftBG" backgroundColor="#00000000"/>
+		<eLabel position="335,220" zPosition="5" size="10,360" name="CoverRightBG" backgroundColor="#00000000"/>
 	<eLabel position="365,90" zPosition="-5" size="830,40" name="TopBG" backgroundColor="#20000000"/>
 	<eLabel position="365,140" zPosition="-5" size="830,260" name="ScrollBG" backgroundColor="#20000000"/>
 	<eLabel position="365,410" zPosition="-5" size="830,40" name="BottomBG" backgroundColor="#20000000"/>
@@ -38,7 +46,7 @@
 	
     <widget name="handlung" position="375,460" size="810,100" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#0000deff" />
 
-	<widget name="coverArt" position="85,230" size="260,340" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
+	<widget name="coverArt" position="85,220" size="260,360" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
