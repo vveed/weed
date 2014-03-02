@@ -21,8 +21,8 @@
 	<eLabel text="MediaPortal"  position="100,90" size="210,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
 	<eLabel text="5.1.2"  position="100,90" size="210,40" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="bottom" halign="right" zPosition="6" />
 	
-	<widget name="name" position="100,160" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000deff" />
-	<widget name="tipps" position="365,150" size="810,60" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;18" valign="center" halign="left" zPosition="5" />
+	<widget name="name" position="735,160" size="400,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<widget name="tipps" position="100,150" size="810,60" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;18" valign="center" halign="left" zPosition="5" />
 	<widget name="page" position="535,665" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#0000deff" />	
 	
 	<!-- Buttons -->
