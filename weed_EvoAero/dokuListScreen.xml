@@ -40,7 +40,7 @@
 
     <widget name="liste" position="366,141" size="828,258" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	
-    <widget name="handlung" position="375,460" size="810,100" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#0000deff" />
+    <widget name="handlung" position="375,467" size="810,105" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#00ffffff" />
 	
 	<eLabel text="Video Quality" position="100,550" size="180,25"  zPosition="6" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="left" foregroundColor="#00ffffff" />
     <widget name="vPrio" position="100,550" size="180,25"  zPosition="6" backgroundColor="#00000000" transparent="1" font="mediaportal; 24" valign="center" halign="right" foregroundColor="#0000deff" />

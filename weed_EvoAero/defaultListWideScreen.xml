@@ -40,7 +40,7 @@
 
     <widget name="liste" position="366,141" size="828,258" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	
-    <widget name="handlung" position="375,460" size="810,100" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#0000deff" />
+    <widget name="handlung" position="375,467" size="810,105" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#00ffffff" />
 
 	<widget name="coverArt" position="85,230" size="260,340" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
 	
