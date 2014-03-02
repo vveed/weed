@@ -32,8 +32,8 @@
 	
 	<eLabel text=" PVR " position="642,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />	
 	<eLabel text=" CH +/- " position="752,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-    <eLabel text=" Menu " position="862,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-    <eLabel text=" Help " position="972,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" Help " position="862,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+    <eLabel text=" Menu " position="972,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
     <eLabel text=" Exit " position="1082,645" size="100,25" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
 	
 	<eLabel position="98,640" size="120,4" zPosition="4" backgroundColor="#008f0000"/>
