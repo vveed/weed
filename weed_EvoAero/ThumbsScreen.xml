@@ -2,30 +2,30 @@
 	
 	<screen name="MediaPortal_Thumbs" position="0,0" size="1280,720" flags="wfNoBorder">
 	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ffffffff"/>
-	<eLabel position="0,30" zPosition="-5" size="1280,50" name="TopBG" backgroundColor="#20000000"/>
-	<eLabel position="0,90" zPosition="-5" size="1280,540" name="ThumbsBG" backgroundColor="#20000000"/>
+	<eLabel position="0,20" zPosition="-5" size="1280,50" name="TopBG" backgroundColor="#20000000"/>
+	<eLabel position="0,80" zPosition="-5" size="1280,550" name="ThumbsBG" backgroundColor="#20000000"/>
 	<eLabel position="0,640" zPosition="-5" size="1280,50" name="ButtonBG" backgroundColor="#20000000"/>
 	
 	<!-- Datum/Uhrzeit -->
-	<widget source="global.CurrentTime" render="Label" position="940,28" size="130,50" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="940,18" size="130,50" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%H:%M</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="1070,32" size="110,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="bottom" halign="left" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="1070,22" size="110,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="bottom" halign="left" transparent="1" foregroundColor="#009c9c9c" >
 		<convert type="ClockToText">Format:%A</convert>
 	</widget>
-		<widget source="global.CurrentTime" render="Label" position="1070,57" size="110,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="top" halign="left" transparent="1" foregroundColor="#009c9c9c" >
+		<widget source="global.CurrentTime" render="Label" position="1070,47" size="110,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="top" halign="left" transparent="1" foregroundColor="#009c9c9c" >
 		<convert type="ClockToText">Format:%d.%B</convert>
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal"  position="100,30" size="210,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2"  position="100,30" size="210,40" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="bottom" halign="right" zPosition="6" />
+	<eLabel text="MediaPortal"  position="100,20" size="210,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
+	<eLabel text="5.1.2"  position="100,20" size="210,40" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="bottom" halign="right" zPosition="6" />
 	
 	
-	<widget name="Page" position="360,55" size="80,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#009c9c9c" zPosition="1" />
-	<widget name="page" position="420,55" size="460,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="center" foregroundColor="#009c9c9c" zPosition="1" />
-	<widget name="Thumb" position="575,30" size="120,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00ffffff" zPosition="1" />
-	<widget name="thumb" position="575,30" size="120,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="right" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="Page" position="360,45" size="80,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#009c9c9c" zPosition="1" />
+	<widget name="page" position="420,45" size="460,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="center" foregroundColor="#009c9c9c" zPosition="1" />
+	<widget name="Thumb" position="575,20" size="120,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00ffffff" zPosition="1" />
+	<widget name="thumb" position="575,20" size="120,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="right" foregroundColor="#00ffffff" zPosition="1" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="90,660" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
