@@ -26,23 +26,22 @@
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal" position="100,90" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2" position="100,110" size="210,30" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right" zPosition="6" />
-	
-	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<ePixmap position="100,100" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+
+	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<widget name="stationInfo" position="380,90" size="400,40" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
 	<widget name="leftContentTitle" position="85,220" size="545,40" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="rightContentTitle" position="650,220" size="545,40" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="streamlist" position="85,270" size="545,310" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
-    <widget name="playlist" position="650,270" size="545,310" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+    <widget name="streamlist" position="85,270" size="545,310" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00f8f8f8" foregroundColor="#009c9c9c" />
+    <widget name="playlist" position="650,270" size="545,310" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00f8f8f8" foregroundColor="#009c9c9c" />
 	
-    <widget name="stationDesc" position="450,145" size="740,60" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#0000deff" />
+    <widget name="stationDesc" position="450,145" size="740,60" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#00f8f8f8" />
 
 	<widget name="stationIcon" position="365,140" size="70,70" transparent="1" alphatest="blend" />
 
-    <widget source="session.CurrentService" render="Label" position="110,557" size="120,20"  zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#0000deff" >
+    <widget source="session.CurrentService" render="Label" position="110,557" size="120,20"  zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00f8f8f8" >
       <convert type="ServicePosition">Position</convert>
     </widget>	
 

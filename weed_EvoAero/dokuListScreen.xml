@@ -28,13 +28,12 @@
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal" position="100,90" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2" position="100,110" size="210,30" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right" zPosition="6" />
-	
-	<widget name="Page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#0000deff" valign="center" halign="left" />
-	<widget name="page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#0000deff" valign="center" halign="right" />
+	<ePixmap position="100,100" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+
+	<widget name="Page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="left" />
+	<widget name="page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="right" />
   	
-	<widget name="title" position="980,95" size="200,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<widget name="title" position="980,95" size="200,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<widget name="name" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="ContentTitle" position="380,410" size="600,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
@@ -43,7 +42,7 @@
     <widget name="handlung" position="375,467" size="810,105" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 15" halign="left" foregroundColor="#00ffffff" />
 	
 	<eLabel text="Video Quality" position="100,550" size="180,25"  zPosition="6" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="left" foregroundColor="#00ffffff" />
-    <widget name="vPrio" position="100,550" size="180,25"  zPosition="6" backgroundColor="#00000000" transparent="1" font="mediaportal; 24" valign="center" halign="right" foregroundColor="#0000deff" />
+    <widget name="vPrio" position="100,550" size="180,25"  zPosition="6" backgroundColor="#00000000" transparent="1" font="mediaportal; 24" valign="center" halign="right" foregroundColor="#00f8f8f8" />
 	
 	<widget name="coverArt" position="85,230" size="260,340" zPosition="4" backgroundColor="#00000000" transparent="1" borderWidth="0" borderColor="#0000000" alphatest="blend" />
 	

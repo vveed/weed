@@ -18,9 +18,7 @@
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal"  position="100,20" size="210,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2"  position="100,20" size="210,40" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="bottom" halign="right" zPosition="6" />
-	
+	<ePixmap position="100,30" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
 	
 	<widget name="Page" position="360,45" size="80,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#009c9c9c" zPosition="1" />
 	<widget name="page" position="420,45" size="460,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="center" foregroundColor="#009c9c9c" zPosition="1" />

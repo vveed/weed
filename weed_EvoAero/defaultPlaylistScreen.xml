@@ -24,16 +24,15 @@
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal" position="100,90" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2" position="100,110" size="210,30" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right" zPosition="6" />
-	
-	<widget name="title" position="530,90" size="650,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
+	<ePixmap position="100,100" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+
+	<widget name="title" position="530,90" size="650,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<eLabel text="Songliste" position="380,90" size="200,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	
     <widget name="streamlist" position="366,141" size="828,258" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	
 	<eLabel text="Song: " position="380,410" size="380,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
-    <widget name="songtitle" position="435,410" size="340,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#0000deff" />
+    <widget name="songtitle" position="435,410" size="340,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00f8f8f8" />
     <eLabel text="Interpret: " position="380,470" size="100,30" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
     <widget name="artist" position="480,470" size="340,30" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00ffffff" />
 	<eLabel text="Playmode:" position="380,500" size="100,30" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
@@ -41,7 +40,7 @@
 	<eLabel text="Album: " position="380,530" size="100,30" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
     <widget name="album" position="480,530" size="340,30" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#00ffffff" />
 	
-	<widget source="session.CurrentService" render="Progress" position="90,535" size="250,12"  zPosition="5" backgroundColor="#00444444" foregroundColor="#0000deff" borderWidth="1" borderColor="#00000000" transparent="0">
+	<widget source="session.CurrentService" render="Progress" position="90,535" size="250,12"  zPosition="5" backgroundColor="#00444444" foregroundColor="#00f8f8f8" borderWidth="1" borderColor="#00000000" transparent="0">
       <convert type="ServicePosition">Position</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="90,545" size="250,30"  zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="left" foregroundColor="#00ffffff">
@@ -54,7 +53,7 @@
       <convert type="ServicePosition">Length</convert>
     </widget>
 	
-	<eLabel text="Mediaplayer" position="100,480" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
+	<eLabel text="Mediaplayer" position="100,480" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00f8f8f8" valign="center" halign="left" zPosition="6" />
 	
 	<widget name="coverArt" position="120,260" size="160,160" zPosition="4" backgroundColor="#00000000" transparent="1" alphatest="blend" />
 	

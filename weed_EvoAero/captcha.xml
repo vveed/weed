@@ -23,12 +23,11 @@
 	</widget>
 	
 	<!-- select screen -->
-	<eLabel text="MediaPortal" position="100,90" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#0000deff" valign="center" halign="left" zPosition="6" />
-	<eLabel text="5.1.2" position="100,110" size="210,30" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right" zPosition="6" />
+	<ePixmap position="100,100" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+
+	<widget name="header" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	
-	<widget name="header" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
-	
-	<widget name="text" position="365,140" size="830,70" zPosition="2" font="mediaportal;32" noWrap="1" halign="center" valign="center"  backgroundColor="#00000000" foregroundColor="#0000deff"/>
+	<widget name="text" position="365,140" size="830,70" zPosition="2" font="mediaportal;32" noWrap="1" halign="center" valign="center"  backgroundColor="#00000000" foregroundColor="#00f8f8f8"/>
 	
 	<widget name="list" position="650,240" size="545,360" selectionDisabled="1" transparent="1" zPosition="2" />
 	
