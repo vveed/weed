@@ -23,7 +23,7 @@
 	</widget>
 	
 	<!-- select screen -->
-	<ePixmap position="100,100" size="210,36" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+	<ePixmap position="100,105" size="232,23" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
 
 	<eLabel text="User Plugin Sortierung" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<eLabel text="Sortierungs Auswahl" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
