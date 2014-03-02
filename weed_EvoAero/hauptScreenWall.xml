@@ -18,7 +18,7 @@
 	</widget>
 	
 	<!-- select screen -->
-	<ePixmap position="100,100" size="206,28" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+	<ePixmap position="100,95" size="210,38" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
 	
 	<widget name="name" position="735,160" size="400,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<widget name="tipps" position="100,150" size="810,60" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;18" valign="center" halign="left" zPosition="5" />
