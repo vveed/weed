@@ -4,33 +4,34 @@
 	
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ffffffff"/>
-	<eLabel position="85,90" zPosition="-5" size="260,120" name="TimerBG" backgroundColor="#20000000"/>
-	<eLabel position="85,220" zPosition="-5" size="260,360" name="CoverBG" backgroundColor="#20000000"/>
-	<eLabel position="365,90" zPosition="-5" size="830,40" name="TopBG" backgroundColor="#20000000"/>
-	<eLabel position="365,140" zPosition="-5" size="830,260" name="ScrollBG" backgroundColor="#20000000"/>
-	<eLabel position="365,410" zPosition="-5" size="830,40" name="BottomBG" backgroundColor="#20000000"/>
-	<eLabel position="365,460" zPosition="-5" size="830,120" name="InfoBG" backgroundColor="#20000000"/>
-	<eLabel position="85,590" zPosition="-5" size="1110,40" name="ButtonBG" backgroundColor="#20000000"/>
+	<eLabel position="85,90" zPosition="-5" size="260,120" name="TimerBG" backgroundColor="#30000000"/>
+	<eLabel position="85,220" zPosition="-5" size="260,360" name="CoverBG" backgroundColor="#30000000"/>
+	<eLabel position="365,90" zPosition="-5" size="830,40" name="TopBG" backgroundColor="#30000000"/>
+	<eLabel position="365,140" zPosition="-5" size="830,260" name="ScrollBG" backgroundColor="#30000000"/>
+	<eLabel position="365,410" zPosition="-5" size="830,40" name="BottomBG" backgroundColor="#30000000"/>
+	<eLabel position="365,460" zPosition="-5" size="830,120" name="InfoBG" backgroundColor="#30000000"/>
+	<eLabel position="85,590" zPosition="-5" size="1110,40" name="ButtonBG" backgroundColor="#30000000"/>
 
 	<!-- Datum/Uhrzeit -->
-	<widget source="global.CurrentTime" render="Label" position="105,140" size="130,70" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="105,140" size="130,70" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="00f8f8f8" >
 		<convert type="ClockToText">Format:%H:%M</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="235,140" size="110,35" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="bottom" halign="left" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="235,140" size="110,35" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="bottom" halign="left" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A</convert>
 	</widget>
-		<widget source="global.CurrentTime" render="Label" position="235,175" size="110,35" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="top" halign="left" transparent="1" foregroundColor="#009c9c9c" >
+		<widget source="global.CurrentTime" render="Label" position="235,175" size="110,35" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="top" halign="left" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%d.%B</convert>
 	</widget>
 	
 	<!-- select screen -->
-	<ePixmap position="100,105" size="232,23" zPosition="0" pixmap="~/weed_EvoAero/images/logo.png" alphatest="blend" />
+    <eLabel text="MEDIAPORTAL" position="85,95" size="260,50" noWrap="1" transparent="1" font="mediaportal; 30" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
+	<eLabel text="5.1.2" position="100,115" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
 
-	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
+	<widget name="title" position="780,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="00f8f8f8" />
 	<widget name="name" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="ContentTitle" position="380,410" size="800,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="liste" position="366,141" size="828,258" backgroundColor="#20000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
+    <widget name="liste" position="366,141" size="828,258" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
 	
 	<!-- Buttons -->
     <widget name="F1" position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
@@ -49,10 +50,10 @@
 	<eLabel position="350,595" zPosition="0" size="120,4" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,595" zPosition="0" size="120,4" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
 	
 	</screen>
