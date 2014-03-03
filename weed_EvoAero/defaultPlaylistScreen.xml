@@ -54,7 +54,7 @@
       <convert type="ServicePosition">Length</convert>
     </widget>
 	
-	<eLabel text="Mediaplayer" position="100,480" size="240,60" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00f8f8f8" valign="center" halign="left" zPosition="6" />
+	<eLabel text="MEDIAPLAYER" position="85,480" size="260,50" noWrap="1" transparent="1" font="mediaportal; 22" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
 	
 	<widget name="coverArt" position="120,260" size="160,160" zPosition="4" backgroundColor="#00000000" transparent="1" alphatest="blend" />
 	
