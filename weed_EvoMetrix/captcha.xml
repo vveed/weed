@@ -4,14 +4,14 @@
 	
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
-		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+	<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#30000000"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/weed_EvoMetrix/images/mp_bg_detail.png" alphatest="blend" />
 
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	

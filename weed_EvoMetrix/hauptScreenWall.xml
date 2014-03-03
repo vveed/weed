@@ -3,14 +3,14 @@
 	<screen name="MediaPortal" position="0,0" size="1280,720" flags="wfNoBorder">
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
-	<eLabel position="0,135" size="1280,540" zPosition="-4" backgroundColor="#2000deff"/>
-	<eLabel position="0,137" size="1280,536" zPosition="-3" backgroundColor="#20000000"/>
+	<eLabel position="0,135" size="1280,540" zPosition="-4" backgroundColor="#3000deff"/>
+	<eLabel position="0,137" size="1280,536" zPosition="-3" backgroundColor="#30000000"/>
 
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1120,175" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,175" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="815,175" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	

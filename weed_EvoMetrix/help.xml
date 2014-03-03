@@ -4,14 +4,14 @@
 
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
-		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+	<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#30000000"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/weed_EvoMetrix/images/mp_bg_detail.png" alphatest="blend" />
 	
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	
@@ -47,7 +47,7 @@
 	<eLabel text="Info/EPG" position="875,425" size="245,25" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal; 18" valign="top" halign="left" zPosition="1" />	
 	<eLabel text="Update" position="965,423" size="210,25" foregroundColor="#0000deff" backgroundColor="#00000000" transparent="1" font="mediaportal; 22" valign="top" halign="left" zPosition="1" />	
 		
-	<eLabel text="Mit der MENÜ Taste könnt ihr im Hauptmenü einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blättern mit den beiden 'Bouquet Tasten' ist immer dann möglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden länger abwarten&#xD;&#xA;    oder den Stream am PC überprüfen ob dieser dort läuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer überlastet und man kann mit Bildhängern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster überlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswählen." position="112,185" size="740,400" backgroundColor="#00000000" font="mediaportal; 12" foregroundColor="#009c9c9c" valign="top" halign="left" transparent="1" />
+	<eLabel text="Mit der MENÜ Taste könnt ihr im Hauptmenü einstellen welche Plugins angezeigt werden. Default PINCODE  '0000'. Eine Seite blättern mit den beiden 'Bouquet Tasten' ist immer dann möglich wenn 'Page 1' in einem Plugin auftaucht.&#xD;&#xA;Es gibt immer eine goldene Regel bei Streams.&#xD;&#xA;1. Sollte der Stream starten aber das Bild bleibt dunkel, dann bitte ein paar Sekunden länger abwarten&#xD;&#xA;    oder den Stream am PC überprüfen ob dieser dort läuft.&#xD;&#xA;2. Wenn der Stream zwischendurch stockt, merke dir den Zeitpunkt und stoppe den Stream, starte ihn erneut &#xD;&#xA;    und spule zum Zeitpunkt vor (mit der Seekbar funktioniert das bestens).&#xD;&#xA;3. Startet der MediaPlayer gar nicht, dann liegt es wohl am Plugin.&#xD;&#xA;4. Abends sind die Streamserver immer überlastet und man kann mit Bildhängern rechnen!&#xD;&#xA;5. Stockt ein Stream, ist vermutlich der Streamhoster überlastet, der Fehler liegt nicht beim Plugin.&#xD;&#xA;6. Wenn die Inhalte nicht abgespielt werden und der MoviePlayer 'Wiedergabe beenden' anzeigt, &#xD;&#xA;     bitte 'Nein, aber von Anfang an neu beginnen' auswählen." position="112,185" size="740,400" backgroundColor="#00000000" font="mediaportal; 12" foregroundColor="#00777777" valign="top" halign="left" transparent="1" />
 
 	<eLabel text="MediaPortal Team http://www.vuplus-support.org" position="100,580" size="650,20" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000deff" />
 

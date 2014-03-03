@@ -3,7 +3,7 @@
 	
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
-		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+	<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#30000000"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/weed_EvoMetrix/images/mp_bg_detail.png" alphatest="blend" />
 	
 	<!-- Datum/Uhrzeit -->
@@ -11,7 +11,7 @@
 	<widget source="global.CurrentTime" render="Label" position="1120,577" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,577" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="815,577" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	<!-- select screen -->
@@ -20,13 +20,13 @@
 	<widget name="name" position="100,578" size="650,20" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0000deff" />
     
 	<widget name="Mediatheken" position="100,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="mediatheken" position="100,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+	<widget name="mediatheken" position="100,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#00777777" />
 	<widget name="Grauzone" position="380,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="grauzone" position="380,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+	<widget name="grauzone" position="380,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#00777777" />
 	<widget name="Funsport" position="660,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="funsport" position="660,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+	<widget name="funsport" position="660,170" size="280,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#00777777" />
 	<widget name="Porn" position="940,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="porn" position="940,170" size="250,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+	<widget name="porn" position="940,170" size="250,375" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#00777777" />
 
 	<!-- Buttons -->
     <eLabel text="Proxy" position="98,615" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />

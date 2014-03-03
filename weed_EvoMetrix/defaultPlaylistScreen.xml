@@ -4,14 +4,14 @@
 	
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#90000000"/>
-		<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#20000000"/>
+	<eLabel position="84,84" size="1112,552" zPosition="-4" backgroundColor="#30000000"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/weed_EvoMetrix/images/mp_bg_detail.png" alphatest="blend" />
 
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1120,122" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#0000deff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#009c9c9c" >
+	<widget source="global.CurrentTime" render="Label" position="815,122" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00777777" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	
@@ -19,13 +19,13 @@
 	<widget name="title" position="530,85" size="650,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0000deff" />
 	<eLabel text="Songliste" position="100,125" size="750,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="streamlist"  position="485,166" size="697,390" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#009c9c9c" />
+    <widget name="streamlist"  position="485,166" size="697,390" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoMetrix/images/sel.png" foregroundColorSelected="#0000deff" foregroundColor="#00777777" />
     
-	<eLabel text="Song: " position="112,180" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
+	<eLabel text="Song: " position="112,180" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00777777" />
     <widget name="songtitle" position="112,210" size="340,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#0000deff" />
-    <eLabel text="Interpret: " position="112,240" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#009c9c9c" />
+    <eLabel text="Interpret: " position="112,240" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00777777" />
     <widget name="artist" position="112,270" size="340,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
-	<eLabel text="Playmode:" position="112,300" size="340,25" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#009c9c9c" />
+	<eLabel text="Playmode:" position="112,300" size="340,25" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#00777777" />
     <widget name="album" position="112,330" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00ffffff" />
 	
 	<widget source="session.CurrentService" render="Progress" position="112,535" size="341,12"  zPosition="5" backgroundColor="#00323232" foregroundColor="#00ffffff" borderWidth="1" borderColor="#00000000" transparent="0">
