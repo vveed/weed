@@ -31,7 +31,7 @@
 	<widget name="ContentTitle" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<widget name="name" position="380,410" size="400,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="liste" position="366,141" size="828,258" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
+    <widget name="liste" position="366,141" size="828,250" backgroundColor="#30000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
 	
 	<widget name="Parameter" position="100,230" size="100,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#0000ff00" />
 	<widget name="parametertoedit" position="200,230" size="130,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#00ffffff" />
@@ -45,7 +45,7 @@
 	<widget name="Time" position="100,320" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;20" valign="center" halign="left" foregroundColor="#00767676" />
     <widget name="time" position="235,320" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#00fffffff" />
 	
-	<widget name="Metalang" position="100,340" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00767676" />
+	<widget name="Metalang" position="100,340" size="120,40" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00767676" />
     <widget name="metalang" position="235,340" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffff00" />
     <widget name="Regionid" position="100,360" size="120,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00767676" />
     <widget name="regionid" position="235,360" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
