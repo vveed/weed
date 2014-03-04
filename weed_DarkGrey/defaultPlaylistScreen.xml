@@ -29,7 +29,7 @@
 	<eLabel text="Album:" position="770,528" size="80,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#005f5f5f" />
     <widget name="album" position="850,528" size="245,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#009c9c9c" />
 	
-	<widget source="session.CurrentService" render="Progress" position="65,650" size="590,18"  zPosition="5" backgroundColor="#00323232" foregroundColor="#00ffb000" borderWidth="1" borderColor="#00000000" transparent="0">
+	<widget source="session.CurrentService" render="Progress" position="65,650" size="590,18"  zPosition="5" backgroundColor="#00323232" borderWidth="1" borderColor="#00000000" transparent="0">
       <convert type="ServicePosition">Position</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="65,670" size="590,25"  zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" valign="center" halign="left" foregroundColor="#00ffffff">
