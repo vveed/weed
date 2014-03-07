@@ -29,7 +29,7 @@
 	
 	<!-- select screen -->
     <eLabel text="MEDIAPORTAL" position="85,90" size="260,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	<eLabel text="5.1.2" position="100,115" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
+	<eLabel text="5.1.3" position="100,115" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
 	
 	<widget name="Page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="left" />
 	<widget name="page" position="995,410" size="180,40" zPosition="5" backgroundColor="#00000000" transparent="1" font="mediaportal;18" foregroundColor="#00f8f8f8" valign="center" halign="right" />

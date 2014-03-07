@@ -19,7 +19,7 @@
 	
 	<!-- select screen -->
     <eLabel text="MEDIAPORTAL" position="85,92" size="260,50" noWrap="1" transparent="1" font="mediaportal; 30" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	<eLabel text="5.1.2" position="320,97" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
+	<eLabel text="5.1.3" position="320,97" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
 	
 	<widget name="name" position="735,160" size="400,40" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00f8f8f8" />
 	<widget name="tipps" position="110,150" size="760,60" foregroundColor="#00767676" backgroundColor="#00000000" transparent="1" font="mediaportal;18" valign="center" halign="left" zPosition="5" />
