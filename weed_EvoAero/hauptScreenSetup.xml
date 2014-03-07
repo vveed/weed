@@ -50,10 +50,10 @@
 	<eLabel position="350,595" zPosition="0" size="120,4" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,595" zPosition="0" size="120,4" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
-	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
 	
 	</screen>
