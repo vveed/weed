@@ -29,13 +29,13 @@
 	<widget name="name" position="380,90" size="400,40" noWrap="1" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	
 	<widget name="Mediatheken" position="90,220" size="250,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="mediatheken" position="90,260" size="250,305" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
+	<widget name="mediatheken" position="90,260" size="250,305" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	<widget name="Grauzone" position="370,140" size="250,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="grauzone" position="370,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
+	<widget name="grauzone" position="370,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	<widget name="Funsport" position="655,140" size="250,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="funsport" position="655,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
+	<widget name="funsport" position="655,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 	<widget name="Porn" position="940,140" size="250,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="porn" position="940,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#00767676" />
+	<widget name="porn" position="940,180" size="250,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/weed_EvoAero/images/sel.png" foregroundColorSelected="#00000000" foregroundColor="#009c9c9c" />
 
 	<!-- Buttons -->
     <eLabel text=" Proxy " position="90,605" size="120,25" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
@@ -54,10 +54,10 @@
 	<eLabel position="350,595" zPosition="0" size="120,4" name="ButtonYELLOW" backgroundColor="#007f7800"/>
 	<eLabel position="480,595" zPosition="0" size="120,4" name="ButtonBLUE" backgroundColor="#0000517f"/>
 	
-	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
-	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
-	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
-	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
-	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#00767676"/>
+	<eLabel position="650,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="760,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="870,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="980,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
+	<eLabel position="1090,595" zPosition="0" size="100,4" name="ButtonGREY" backgroundColor="#009c9c9c"/>
 	
 	</screen>
