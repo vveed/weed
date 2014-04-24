@@ -7,7 +7,7 @@
 	<eLabel position="0,640" zPosition="-5" size="1280,50" name="ButtonBG" backgroundColor="#30000000"/>
 	
 	<!-- Datum/Uhrzeit -->
-	<widget source="global.CurrentTime" render="Label" position="940,18" size="130,50" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 50" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
+	<widget source="global.CurrentTime" render="Label" position="940,18" size="130,50" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 45" valign="center" halign="left" transparent="1" foregroundColor="#00f8f8f8" >
 		<convert type="ClockToText">Format:%H:%M</convert>
 	</widget>
 	<widget source="global.CurrentTime" render="Label" position="1070,25" size="110,25" noWrap="1" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00777777" >
@@ -19,7 +19,7 @@
 	
 	<!-- select screen -->
     <eLabel text="MEDIAPORTAL" position="85,22" size="260,50" noWrap="1" transparent="1" font="mediaportal; 32" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="center" zPosition="6" />
-	<eLabel text="5.1.4" position="320,27" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
+	<eLabel text="5.1.5" position="320,27" size="60,50" noWrap="1" transparent="1" font="mediaportal; 16" backgroundColor="#00000000" foregroundColor="#00777777" valign="center" halign="center" zPosition="6" />
 	
 	<widget name="Page" position="360,45" size="80,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="left" foregroundColor="#009c9c9c" zPosition="1" />
 	<widget name="page" position="420,45" size="460,25" backgroundColor="#26181d20" transparent="1" font="mediaportal;18" valign="center" halign="center" foregroundColor="#009c9c9c" zPosition="1" />
